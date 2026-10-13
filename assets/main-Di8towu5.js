@@ -1,0 +1,164 @@
+import"./modulepreload-polyfill-P2Xu9kJm.js";import{i as e,n as t,r as n}from"./vendor-CIlkCAyF.js";import{_ as r,a as i,c as a,f as o,g as s,h as c,i as l,l as u,m as d,n as f,o as p,p as m,r as h,s as g,t as _,u as v,v as y}from"./shared-D6kLlnoE.js";var b=/(?:^\s+|\s+$)/g,x=/([\uD800-\uDBFF][\uDC00-\uDFFF](?:[\u200D\uFE0F][\uD800-\uDBFF][\uDC00-\uDFFF]){2,}|\uD83D\uDC69(?:\u200D(?:(?:\uD83D\uDC69\u200D)?\uD83D\uDC67|(?:\uD83D\uDC69\u200D)?\uD83D\uDC66)|\uD83C[\uDFFB-\uDFFF])|\uD83D\uDC69\u200D(?:\uD83D\uDC69\u200D)?\uD83D\uDC66\u200D\uD83D\uDC66|\uD83D\uDC69\u200D(?:\uD83D\uDC69\u200D)?\uD83D\uDC67\u200D(?:\uD83D[\uDC66\uDC67])|\uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08|(?:\uD83C[\uDFC3\uDFC4\uDFCA]|\uD83D[\uDC6E\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4-\uDEB6]|\uD83E[\uDD26\uDD37-\uDD39\uDD3D\uDD3E\uDDD6-\uDDDD])(?:\uD83C[\uDFFB-\uDFFF])\u200D[\u2642\u2640]\uFE0F|\uD83D\uDC69(?:\uD83C[\uDFFB-\uDFFF])\u200D(?:\uD83C[\uDF3E\uDF73\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDD27\uDCBC\uDD2C\uDE80\uDE92])|(?:\uD83C[\uDFC3\uDFC4\uDFCA]|\uD83D[\uDC6E\uDC6F\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4-\uDEB6]|\uD83E[\uDD26\uDD37-\uDD39\uDD3C-\uDD3E\uDDD6-\uDDDF])\u200D[\u2640\u2642]\uFE0F|\uD83C\uDDFD\uD83C\uDDF0|\uD83C\uDDF6\uD83C\uDDE6|\uD83C\uDDF4\uD83C\uDDF2|\uD83C\uDDE9(?:\uD83C[\uDDEA\uDDEC\uDDEF\uDDF0\uDDF2\uDDF4\uDDFF])|\uD83C\uDDF7(?:\uD83C[\uDDEA\uDDF4\uDDF8\uDDFA\uDDFC])|\uD83C\uDDE8(?:\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDEE\uDDF0-\uDDF5\uDDF7\uDDFA-\uDDFF])|(?:\u26F9|\uD83C[\uDFCC\uDFCB]|\uD83D\uDD75)(?:\uFE0F\u200D[\u2640\u2642]|(?:\uD83C[\uDFFB-\uDFFF])\u200D[\u2640\u2642])\uFE0F|(?:\uD83D\uDC41\uFE0F\u200D\uD83D\uDDE8|\uD83D\uDC69(?:\uD83C[\uDFFB-\uDFFF])\u200D[\u2695\u2696\u2708]|\uD83D\uDC69\u200D[\u2695\u2696\u2708]|\uD83D\uDC68(?:(?:\uD83C[\uDFFB-\uDFFF])\u200D[\u2695\u2696\u2708]|\u200D[\u2695\u2696\u2708]))\uFE0F|\uD83C\uDDF2(?:\uD83C[\uDDE6\uDDE8-\uDDED\uDDF0-\uDDFF])|\uD83D\uDC69\u200D(?:\uD83C[\uDF3E\uDF73\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\u2764\uFE0F\u200D(?:\uD83D\uDC8B\u200D(?:\uD83D[\uDC68\uDC69])|\uD83D[\uDC68\uDC69]))|\uD83C\uDDF1(?:\uD83C[\uDDE6-\uDDE8\uDDEE\uDDF0\uDDF7-\uDDFB\uDDFE])|\uD83C\uDDEF(?:\uD83C[\uDDEA\uDDF2\uDDF4\uDDF5])|\uD83C\uDDED(?:\uD83C[\uDDF0\uDDF2\uDDF3\uDDF7\uDDF9\uDDFA])|\uD83C\uDDEB(?:\uD83C[\uDDEE-\uDDF0\uDDF2\uDDF4\uDDF7])|[#\*0-9]\uFE0F\u20E3|\uD83C\uDDE7(?:\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEF\uDDF1-\uDDF4\uDDF6-\uDDF9\uDDFB\uDDFC\uDDFE\uDDFF])|\uD83C\uDDE6(?:\uD83C[\uDDE8-\uDDEC\uDDEE\uDDF1\uDDF2\uDDF4\uDDF6-\uDDFA\uDDFC\uDDFD\uDDFF])|\uD83C\uDDFF(?:\uD83C[\uDDE6\uDDF2\uDDFC])|\uD83C\uDDF5(?:\uD83C[\uDDE6\uDDEA-\uDDED\uDDF0-\uDDF3\uDDF7-\uDDF9\uDDFC\uDDFE])|\uD83C\uDDFB(?:\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDEE\uDDF3\uDDFA])|\uD83C\uDDF3(?:\uD83C[\uDDE6\uDDE8\uDDEA-\uDDEC\uDDEE\uDDF1\uDDF4\uDDF5\uDDF7\uDDFA\uDDFF])|\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62(?:\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73|\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74|\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67)\uDB40\uDC7F|\uD83D\uDC68(?:\u200D(?:\u2764\uFE0F\u200D(?:\uD83D\uDC8B\u200D)?\uD83D\uDC68|(?:(?:\uD83D[\uDC68\uDC69])\u200D)?\uD83D\uDC66\u200D\uD83D\uDC66|(?:(?:\uD83D[\uDC68\uDC69])\u200D)?\uD83D\uDC67\u200D(?:\uD83D[\uDC66\uDC67])|\uD83C[\uDF3E\uDF73\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92])|(?:\uD83C[\uDFFB-\uDFFF])\u200D(?:\uD83C[\uDF3E\uDF73\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]))|\uD83C\uDDF8(?:\uD83C[\uDDE6-\uDDEA\uDDEC-\uDDF4\uDDF7-\uDDF9\uDDFB\uDDFD-\uDDFF])|\uD83C\uDDF0(?:\uD83C[\uDDEA\uDDEC-\uDDEE\uDDF2\uDDF3\uDDF5\uDDF7\uDDFC\uDDFE\uDDFF])|\uD83C\uDDFE(?:\uD83C[\uDDEA\uDDF9])|\uD83C\uDDEE(?:\uD83C[\uDDE8-\uDDEA\uDDF1-\uDDF4\uDDF6-\uDDF9])|\uD83C\uDDF9(?:\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDED\uDDEF-\uDDF4\uDDF7\uDDF9\uDDFB\uDDFC\uDDFF])|\uD83C\uDDEC(?:\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEE\uDDF1-\uDDF3\uDDF5-\uDDFA\uDDFC\uDDFE])|\uD83C\uDDFA(?:\uD83C[\uDDE6\uDDEC\uDDF2\uDDF3\uDDF8\uDDFE\uDDFF])|\uD83C\uDDEA(?:\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDED\uDDF7-\uDDFA])|\uD83C\uDDFC(?:\uD83C[\uDDEB\uDDF8])|(?:\u26F9|\uD83C[\uDFCB\uDFCC]|\uD83D\uDD75)(?:\uD83C[\uDFFB-\uDFFF])|(?:\uD83C[\uDFC3\uDFC4\uDFCA]|\uD83D[\uDC6E\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4-\uDEB6]|\uD83E[\uDD26\uDD37-\uDD39\uDD3D\uDD3E\uDDD6-\uDDDD])(?:\uD83C[\uDFFB-\uDFFF])|(?:[\u261D\u270A-\u270D]|\uD83C[\uDF85\uDFC2\uDFC7]|\uD83D[\uDC42\uDC43\uDC46-\uDC50\uDC66\uDC67\uDC70\uDC72\uDC74-\uDC76\uDC78\uDC7C\uDC83\uDC85\uDCAA\uDD74\uDD7A\uDD90\uDD95\uDD96\uDE4C\uDE4F\uDEC0\uDECC]|\uD83E[\uDD18-\uDD1C\uDD1E\uDD1F\uDD30-\uDD36\uDDD1-\uDDD5])(?:\uD83C[\uDFFB-\uDFFF])|\uD83D\uDC68(?:\u200D(?:(?:(?:\uD83D[\uDC68\uDC69])\u200D)?\uD83D\uDC67|(?:(?:\uD83D[\uDC68\uDC69])\u200D)?\uD83D\uDC66)|\uD83C[\uDFFB-\uDFFF])|(?:[\u261D\u26F9\u270A-\u270D]|\uD83C[\uDF85\uDFC2-\uDFC4\uDFC7\uDFCA-\uDFCC]|\uD83D[\uDC42\uDC43\uDC46-\uDC50\uDC66-\uDC69\uDC6E\uDC70-\uDC78\uDC7C\uDC81-\uDC83\uDC85-\uDC87\uDCAA\uDD74\uDD75\uDD7A\uDD90\uDD95\uDD96\uDE45-\uDE47\uDE4B-\uDE4F\uDEA3\uDEB4-\uDEB6\uDEC0\uDECC]|\uD83E[\uDD18-\uDD1C\uDD1E\uDD1F\uDD26\uDD30-\uDD39\uDD3D\uDD3E\uDDD1-\uDDDD])(?:\uD83C[\uDFFB-\uDFFF])?|(?:[\u231A\u231B\u23E9-\u23EC\u23F0\u23F3\u25FD\u25FE\u2614\u2615\u2648-\u2653\u267F\u2693\u26A1\u26AA\u26AB\u26BD\u26BE\u26C4\u26C5\u26CE\u26D4\u26EA\u26F2\u26F3\u26F5\u26FA\u26FD\u2705\u270A\u270B\u2728\u274C\u274E\u2753-\u2755\u2757\u2795-\u2797\u27B0\u27BF\u2B1B\u2B1C\u2B50\u2B55]|\uD83C[\uDC04\uDCCF\uDD8E\uDD91-\uDD9A\uDDE6-\uDDFF\uDE01\uDE1A\uDE2F\uDE32-\uDE36\uDE38-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF2D-\uDF35\uDF37-\uDF7C\uDF7E-\uDF93\uDFA0-\uDFCA\uDFCF-\uDFD3\uDFE0-\uDFF0\uDFF4\uDFF8-\uDFFF]|\uD83D[\uDC00-\uDC3E\uDC40\uDC42-\uDCFC\uDCFF-\uDD3D\uDD4B-\uDD4E\uDD50-\uDD67\uDD7A\uDD95\uDD96\uDDA4\uDDFB-\uDE4F\uDE80-\uDEC5\uDECC\uDED0-\uDED2\uDEEB\uDEEC\uDEF4-\uDEF8]|\uD83E[\uDD10-\uDD3A\uDD3C-\uDD3E\uDD40-\uDD45\uDD47-\uDD4C\uDD50-\uDD6B\uDD80-\uDD97\uDDC0\uDDD0-\uDDE6])|(?:[#\*0-9\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u2328\u23CF\u23E9-\u23F3\u23F8-\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB-\u25FE\u2600-\u2604\u260E\u2611\u2614\u2615\u2618\u261D\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638-\u263A\u2640\u2642\u2648-\u2653\u2660\u2663\u2665\u2666\u2668\u267B\u267F\u2692-\u2697\u2699\u269B\u269C\u26A0\u26A1\u26AA\u26AB\u26B0\u26B1\u26BD\u26BE\u26C4\u26C5\u26C8\u26CE\u26CF\u26D1\u26D3\u26D4\u26E9\u26EA\u26F0-\u26F5\u26F7-\u26FA\u26FD\u2702\u2705\u2708-\u270D\u270F\u2712\u2714\u2716\u271D\u2721\u2728\u2733\u2734\u2744\u2747\u274C\u274E\u2753-\u2755\u2757\u2763\u2764\u2795-\u2797\u27A1\u27B0\u27BF\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B50\u2B55\u3030\u303D\u3297\u3299]|\uD83C[\uDC04\uDCCF\uDD70\uDD71\uDD7E\uDD7F\uDD8E\uDD91-\uDD9A\uDDE6-\uDDFF\uDE01\uDE02\uDE1A\uDE2F\uDE32-\uDE3A\uDE50\uDE51\uDF00-\uDF21\uDF24-\uDF93\uDF96\uDF97\uDF99-\uDF9B\uDF9E-\uDFF0\uDFF3-\uDFF5\uDFF7-\uDFFF]|\uD83D[\uDC00-\uDCFD\uDCFF-\uDD3D\uDD49-\uDD4E\uDD50-\uDD67\uDD6F\uDD70\uDD73-\uDD7A\uDD87\uDD8A-\uDD8D\uDD90\uDD95\uDD96\uDDA4\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2-\uDDC4\uDDD1-\uDDD3\uDDDC-\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA-\uDE4F\uDE80-\uDEC5\uDECB-\uDED2\uDEE0-\uDEE5\uDEE9\uDEEB\uDEEC\uDEF0\uDEF3-\uDEF8]|\uD83E[\uDD10-\uDD3A\uDD3C-\uDD3E\uDD40-\uDD45\uDD47-\uDD4C\uDD50-\uDD6B\uDD80-\uDD97\uDDC0\uDDD0-\uDDE6])\uFE0F)/;function S(e){var t=e.nodeType,n=``;if(t===1||t===9||t===11){if(typeof e.textContent==`string`)return e.textContent;for(e=e.firstChild;e;e=e.nextSibling)n+=S(e)}else if(t===3||t===4)return e.nodeValue;return n}function C(e,t,n,r,i){if(e+=``,n&&(e=e.trim?e.trim():e.replace(b,``)),t&&t!==``)return e.replace(/>/g,`&gt;`).replace(/</g,`&lt;`).split(t);for(var a=[],o=e.length,s=0,c,l;s<o;s++)l=e.charAt(s),(l.charCodeAt(0)>=55296&&l.charCodeAt(0)<=56319||e.charCodeAt(s+1)>=65024&&e.charCodeAt(s+1)<=65039)&&(c=((e.substr(s,12).split(x)||[])[1]||``).length||2,l=e.substr(s,c),a.emoji=1,s+=c-1),a.push(i?l:l===`>`?`&gt;`:l===`<`?`&lt;`:r&&l===` `&&(e.charAt(s-1)===` `||e.charAt(s+1)===` `)?`&nbsp;`:l);return a}var w=function(){function e(e){this.chars=C(e),this.sets=[],this.length=50;for(var t=0;t<20;t++)this.sets[t]=A(80,this.chars)}var t=e.prototype;return t.grow=function(e){for(var t=0;t<20;t++)this.sets[t]+=A(e-this.length,this.chars);this.length=e},e}(),T,E,D=function(){return T||typeof window<`u`&&(T=window.gsap)&&T.registerPlugin&&T},O=1,k=/\s+/g,A=function(e,t){for(var n=t.length,r=``;--e>-1;)r+=t[~~(Math.random()*n)];return r},j=`ABCDEFGHIJKLMNOPQRSTUVWXYZ`,M=j.toLowerCase(),N={upperCase:new w(j),lowerCase:new w(M),upperAndLowerCase:new w(j+M)},P=function(){E=T=D()},F={version:`3.15.0`,name:`scrambleText`,register:function(e,t,n){T=e,P()},init:function(e,t,n,r,i){if(E||P(),this.prop=`innerHTML`in e?`innerHTML`:`textContent`in e?`textContent`:0,this.prop){this.target=e,typeof t!=`object`&&(t={text:t});var a=t.text||t.value||``,o=t.trim!==!1,s=this,c,l,u,d;return s.delimiter=c=t.delimiter||``,s.original=C(S(e).replace(k,` `).split(`&nbsp;`).join(``),c,o),(a===`{original}`||a===!0||a==null)&&(a=s.original.join(c)),s.text=C((a||``).replace(k,` `),c,o),s.hasClass=!!(t.newClass||t.oldClass),s.newClass=t.newClass,s.oldClass=t.oldClass,d=c===``,s.textHasEmoji=d&&!!s.text.emoji,s.charsHaveEmoji=!!t.chars&&!!C(t.chars).emoji,s.length=d?s.original.length:s.original.join(c).length,s.lengthDif=(d?s.text.length:s.text.join(c).length)-s.length,s.fillChar=t.fillChar||t.chars&&~t.chars.indexOf(` `)?`&nbsp;`:``,s.charSet=u=N[t.chars||`upperCase`]||new w(t.chars),s.speed=.05/(t.speed||1),s.prevScrambleTime=0,s.setIndex=Math.random()*20|0,l=s.length+Math.max(s.lengthDif,0),l>u.length&&u.grow(l),s.chars=u.sets[s.setIndex],s.revealDelay=t.revealDelay||0,s.tweenLength=t.tweenLength!==!1,s.tween=n,s.rightToLeft=!!t.rightToLeft,s._props.push(`scrambleText`,`text`),O}},render:function(e,t){var n=t.target,r=t.prop,i=t.text,a=t.delimiter,o=t.tween,s=t.prevScrambleTime,c=t.revealDelay,l=t.setIndex,u=t.chars,d=t.charSet,f=t.length,p=t.textHasEmoji,m=t.charsHaveEmoji,h=t.lengthDif,g=t.tweenLength,_=t.oldClass,v=t.newClass,y=t.rightToLeft,b=t.fillChar,x=t.speed,S=t.original,w=t.hasClass,T=i.length,E=o._time,D=E-s,O,k,A,j,M,N,P,F,I,L,R;c&&(o._from&&(E=o._dur-E),e=E===0?0:E<c?1e-6:E===o._dur?1:o._ease((E-c)/(o._dur-c))),e<0?e=0:e>1&&(e=1),y&&(e=1-e),O=~~(e*T+.5),e?((D>x||D<-x)&&(t.setIndex=l=(l+(Math.random()*19|0))%20,t.chars=d.sets[l],t.prevScrambleTime+=D),j=u):j=S.join(a),R=o._from?e:1-e,L=f+(g?o._from?R*R*R:1-R*R*R:1)*h,y?e===1&&(o._from||o.data===`isFromStart`)?(A=``,j=S.join(a)):(P=i.slice(O).join(a),A=m?C(j).slice(0,L-(p?C(P):P).length+.5|0).join(``):j.substr(0,L-(p?C(P):P).length+.5|0),j=P):(A=i.slice(0,O).join(a),k=(p?C(A):A).length,j=m?C(j).slice(k,L+.5|0).join(``):j.substr(k,L-k+.5|0)),w?(F=y?_:v,I=y?v:_,M=F&&O!==0,N=I&&O!==T,P=(M?`<span class='`+F+`'>`:``)+A+(M?`</span>`:``)+(N?`<span class='`+I+`'>`:``)+a+j+(N?`</span>`:``)):P=A+a+j,n[r]=b===`&nbsp;`&&~P.indexOf(`  `)?P.split(`  `).join(`&nbsp;&nbsp;`):P}};F.emojiSafeSplit=C,F.getText=S,D()&&T.registerPlugin(F);var I=Math.PI*2,L=e=>+e.toFixed(2),R=(e,t)=>`${L(e*Math.cos(t))} ${L(e*Math.sin(t))}`;function z(e,t,n,r,i=0){let a=``,o=(t+n)/2;for(let s=0;s<e;s++){let c=i+s/e*I;a+=`M${R(t,c)}Q${R(o,c+r)} ${R(n,c)}Q${R(o,c-r)} ${R(t,c)}Z`}return`<path d="${a}" pathLength="1"/>`}function B(e,t,n,r=0){let i=``;for(let a=0;a<e;a++){let o=r+a/e*I;i+=`<circle class="m-fill" cx="${L(t*Math.cos(o))}" cy="${L(t*Math.sin(o))}" r="${n}"/>`}return i}function V(e,t,n,r=0){let i=[];for(let a=0;a<e*2;a++){let o=r+a/(e*2)*I;i.push(R(a%2?t:n,o).replace(` `,`,`))}return`<polygon points="${i.join(` `)}" pathLength="1"/>`}function ee(e,t,n,r=0){let i=``;for(let a=0;a<e;a++){let o=r+a/e*I;i+=`M${R(t,o)}L${R(n,o)}`}return`<path d="${i}" pathLength="1"/>`}var H=e=>`<circle r="${e}" pathLength="1"/>`,U=(e,t)=>`<g class="m-ring" style="--ring:${e}">${t}</g>`;function te(e=`full`){let t=-Math.PI/2;if(e===`mark`)return`<svg class="mandala mandala--mark" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false">`+H(92)+z(8,22,84,.42,t)+`<circle class="m-fill" r="14"/></svg>`;let n=V(6,7,14,t);return`<svg class="mandala mandala--full" viewBox="-101 -101 202 202" aria-hidden="true" focusable="false">${[U(0,`<circle class="m-fill" r="2.6"/>${H(5)}${n}`),U(1,z(8,9,30,.36,t)+H(32)),U(2,z(16,34,52,.16,t+Math.PI/16)+z(16,38,48,.08,t+Math.PI/16)+H(54)+H(56.5)),U(3,B(32,61,1.25)+ee(32,58,64,Math.PI/32)+H(66.5)),U(4,z(24,69,85,.1,t)+z(24,73,82,.05,t)+H(87)),U(5,V(48,89,94.5,t)+B(48,97.5,.75,t+Math.PI/48)+H(99.5))].join(``)}</svg>`}function ne(e=document){e.querySelectorAll(`[data-mandala]`).forEach(e=>{e.firstElementChild||(e.innerHTML=te(e.dataset.mandala))})}var re=`#version 300 es
+// Обложка: орнаментальная мандала-ореол за головой артистки.
+// Лог-полярная сетка даёт бесконечный «зум» колец из лотосовых лепестков и бусин —
+// тот же язык, что и её орнаментальные татуировки. Фото лежит поверх в DOM
+// с mix-blend-mode: lighten, поэтому здесь рисуется только свет и тьма вокруг.
+precision highp float;
+
+uniform vec2 uRes;      // размер холста, px
+uniform float uTime;    // секунды
+uniform float uZoom;    // накопленный зум (скорость зависит от музыки и скролла)
+uniform vec2 uMouse;    // -1..1, сглажено
+uniform float uScroll;  // 0..1 — прокрутка обложки
+uniform float uEnergy;  // 0..1 — играет ли сет
+uniform float uIntro;   // 0..1 — появление
+uniform vec2 uCenter;   // центр ореола, px от левого нижнего угла
+uniform float uRadius;  // радиус ореола, px
+uniform vec4 uImg;      // прямоугольник фото: x, y (низ), w, h — px
+
+out vec4 outColor;
+
+#define TAU 6.283185307179586
+#define PI 3.141592653589793
+
+float hash21(vec2 p) {
+  p = fract(p * vec2(234.34, 435.345));
+  p += dot(p, p + 34.23);
+  return fract(p.x * p.y);
+}
+
+float noise(vec2 p) {
+  vec2 i = floor(p), f = fract(p);
+  vec2 u = f * f * (3.0 - 2.0 * f);
+  return mix(mix(hash21(i), hash21(i + vec2(1.0, 0.0)), u.x),
+             mix(hash21(i + vec2(0.0, 1.0)), hash21(i + vec2(1.0, 1.0)), u.x), u.y);
+}
+
+float fbm(vec2 p) {
+  float v = 0.0, a = 0.5;
+  mat2 m = mat2(1.6, 1.2, -1.2, 1.6);
+  for (int i = 0; i < 4; i++) {
+    v += a * noise(p);
+    p = m * p;
+    a *= 0.5;
+  }
+  return v;
+}
+
+mat2 rot(float a) {
+  float c = cos(a), s = sin(a);
+  return mat2(c, s, -s, c);
+}
+
+// Линза-«везика» (iq): пересечение двух окружностей радиуса r с центрами в (±d, 0)
+float sdVesica(vec2 p, float r, float d) {
+  p = abs(p);
+  float b = sqrt(r * r - d * d);
+  return ((p.y - b) * d > p.x * b) ? length(p - vec2(0.0, b)) : length(p - vec2(-d, 0.0)) - r;
+}
+
+// Сглаженная линия толщиной w по полю расстояний d; px — размер пикселя в тех же единицах
+float band(float d, float w, float px) {
+  return 1.0 - smoothstep(w - px, w + px, abs(d));
+}
+
+// Орнамент в лог-полярных координатах. p — в радиусах ореола, N — лепестков в кольце.
+float ornament(vec2 p, float zoom, float N) {
+  float r = length(p);
+  float a = atan(p.y, p.x);
+  vec2 g = vec2(log(max(r, 1e-4)) * N / TAU - zoom, a * N / TAU);
+  float px = max(fwidth(g.x), 1e-4);
+  float row = floor(g.x);
+  float kind = mod(row, 3.0);
+  g.y += 0.5 * mod(row, 2.0); // шахматный сдвиг колец — лепестки встают между лепестками
+  vec2 c = fract(g) - 0.5;
+
+  // лотосовый лепесток вдоль радиуса: внешний контур + внутренний
+  float dp = sdVesica(c.yx, 0.62, 0.42);
+  float petal = band(dp, 0.03, px) + 0.65 * band(dp + 0.12, 0.022, px);
+
+  // бусина с точкой — кольца дот-ворка
+  float bead = band(length(c) - 0.17, 0.028, px) + (1.0 - smoothstep(-px, px, length(c) - 0.065));
+  float ray = band(c.y, 0.014, px) * step(abs(c.x), 0.36);
+  float ring = band(0.5 - abs(c.x), 0.02, px);
+
+  float v = petal * step(kind, 1.5) + (bead + 0.55 * ray + 0.6 * ring) * step(1.5, kind);
+
+  // световая волна бежит по кольцам
+  float wave = 0.3 + 0.7 * pow(0.5 + 0.5 * sin(row * 0.9 - uTime * (1.4 + uEnergy * 2.2)), 2.0);
+  // у центра ячейки мельче пикселя — гасим, чтобы не было каши
+  float dense = 1.0 - smoothstep(0.1, 0.32, px);
+  return v * wave * dense;
+}
+
+void main() {
+  vec2 fc = gl_FragCoord.xy;
+  float t = uTime;
+  float intro = uIntro;
+
+  vec2 center = uCenter + uMouse * uRadius * vec2(0.08, -0.06);
+  float R = uRadius * (0.35 + 0.65 * intro) * (1.0 + uScroll * 1.1);
+  vec2 p = (fc - center) / R;
+
+  // психоделическое дыхание: спиральный твист + фрактальный изгиб пространства
+  float r0 = length(p);
+  float twist = 0.16 * sin(t * 0.17) + uMouse.x * 0.22;
+  p = rot(t * 0.04 + twist * log(max(r0, 0.06))) * p;
+  vec2 w = vec2(fbm(p * 2.1 + t * 0.12), fbm(p * 2.1 - t * 0.1 + 7.31)) - 0.5;
+  p += w * (0.07 + 0.06 * uEnergy);
+
+  float I = ornament(p, uZoom, 22.0);
+  float Ic = ornament(p * 1.022, uZoom, 22.0);                     // хроматический «призрак»
+  float Iw = ornament(rot(-t * 0.03) * p * 0.42, uZoom * 0.45 + 0.37, 36.0); // дальний слой
+
+  float r = length(p);
+  float edge = fbm(p * 3.0 + vec2(0.0, t * 0.25));
+  float halo = smoothstep(1.05 + 0.3 * edge, 0.2, r);
+  float core = smoothstep(0.02, 0.14, r);
+
+  // маска фигуры в координатах фото (0,0 — левый верх): голова и корпус гасят ореол
+  vec2 iuv = (fc - uImg.xy) / uImg.zw;
+  iuv.y = 1.0 - iuv.y;
+  float head = 1.0 - smoothstep(0.55, 1.0, length((iuv - vec2(0.405, 0.45)) / vec2(0.085, 0.08)));
+  float torso = 1.0 - smoothstep(0.5, 1.0, length((iuv - vec2(0.33, 0.8)) / vec2(0.2, 0.3)));
+  float subject = max(head, torso);
+
+  vec3 red = vec3(1.0, 0.07, 0.16);
+  vec3 violet = vec3(0.42, 0.1, 1.0);
+  float bright = (0.8 + 0.55 * uEnergy) * intro * (1.0 - 0.6 * uScroll);
+
+  vec3 col = vec3(0.0);
+  col += red * I * halo * core * bright;
+  col += violet * Ic * halo * core * 0.3 * bright;
+  col += red * Iw * 0.065 * (1.0 - 0.7 * halo) * bright;
+  col *= 1.0 - 0.92 * subject;
+
+  // мягкое свечение ореола и красная дымка
+  vec2 uv = fc / uRes;
+  col += red * 0.1 * exp(-r * r * 1.4) * bright;
+  float haze = fbm(uv * vec2(2.2, 3.0) + vec2(t * 0.02, -t * 0.045));
+  col += vec3(0.3, 0.015, 0.045) * pow(haze, 2.4) * 0.45 * intro;
+
+  // лазеры сверху — почти незаметны, разгораются под музыку
+  vec2 origin = vec2(0.5 * uRes.x, uRes.y * 1.04);
+  float lasers = 0.0;
+  for (int i = 0; i < 4; i++) {
+    float fi = float(i);
+    float ang = -PI * 0.5 + sin(t * (0.19 + fi * 0.06) + fi * 1.7) * 0.8;
+    vec2 dir = vec2(cos(ang), sin(ang));
+    vec2 d = fc - origin;
+    float along = dot(d, dir);
+    float perp = abs(d.x * dir.y - d.y * dir.x);
+    float width = (1.0 + along / uRes.y * 2.0) * uRes.y / 900.0;
+    lasers += exp(-perp / width) * smoothstep(0.0, uRes.y * 0.15, along) * exp(-along / (uRes.y * 1.2));
+  }
+  col += red * lasers * (0.06 + 0.4 * uEnergy) * intro * (1.0 - 0.5 * subject);
+
+  // виньетка и дизеринг против полос
+  float vig = smoothstep(1.3, 0.3, length((uv - 0.5) * vec2(uRes.x / uRes.y, 1.0)));
+  col *= mix(0.5, 1.0, vig);
+  col += (hash21(fc + fract(t) * 91.7) - 0.5) * (2.0 / 255.0);
+
+  outColor = vec4(max(col, 0.0), 1.0);
+}
+`,ie=.42,ae=.44,oe=[`uRes`,`uTime`,`uZoom`,`uMouse`,`uScroll`,`uEnergy`,`uIntro`,`uCenter`,`uRadius`,`uImg`];function W(e,t,n){let r=e.createShader(t);if(e.shaderSource(r,n),e.compileShader(r),!e.getShaderParameter(r,e.COMPILE_STATUS))throw Error(e.getShaderInfoLog(r)??`shader compile failed`);return r}var se=class e{canvas;gl;state={mouseTarget:[0,0],scroll:0,energyTarget:0,intro:0,velocity:0};mouse=[0,0];energy=0;zoom=0;quality;slowFrames=0;loc={};photo=null;static create(t){let n=t.getContext(`webgl2`,{alpha:!1,antialias:!1,depth:!1,stencil:!1,premultipliedAlpha:!1,powerPreference:`high-performance`});if(!n)return null;try{return new e(t,n)}catch(e){return console.warn(`[hero-gl]`,e),null}}constructor(e,t){this.canvas=e,this.gl=t;let n=t.createProgram();if(t.attachShader(n,W(t,t.VERTEX_SHADER,u)),t.attachShader(n,W(t,t.FRAGMENT_SHADER,re)),t.linkProgram(n),!t.getProgramParameter(n,t.LINK_STATUS))throw Error(t.getProgramInfoLog(n)??`link failed`);t.useProgram(n);for(let e of oe)this.loc[e]=t.getUniformLocation(n,e);t.bindVertexArray(t.createVertexArray()),this.quality=matchMedia(`(pointer: coarse)`).matches?.55:.75,this.resize()}setPhoto(e){this.photo=e}resize(){let e=Math.min(window.devicePixelRatio||1,2),t=Math.max(1,Math.round(this.canvas.clientWidth*e*this.quality)),n=Math.max(1,Math.round(this.canvas.clientHeight*e*this.quality));(this.canvas.width!==t||this.canvas.height!==n)&&(this.canvas.width=t,this.canvas.height=n,this.gl.viewport(0,0,t,n))}render(e,t){let{gl:n,loc:r,state:i}=this;t=Math.min(t,.1);let a=1-Math.exp(-t*3.5);this.mouse[0]+=(i.mouseTarget[0]-this.mouse[0])*a,this.mouse[1]+=(i.mouseTarget[1]-this.mouse[1])*a,this.energy+=(i.energyTarget-this.energy)*(1-Math.exp(-t*1.2)),this.zoom+=t*(.14+this.energy*.32+Math.min(Math.abs(i.velocity),60)*.012);let o=this.canvas.width,s=this.canvas.height,c=this.canvas.getBoundingClientRect(),l=o/Math.max(c.width,1),u=[o*.2,0,o*.6,s];if(this.photo){let e=this.photo.getBoundingClientRect();u=[(e.left-c.left)*l,(c.bottom-e.bottom)*l,e.width*l,e.height*l]}n.uniform2f(r.uRes,o,s),n.uniform1f(r.uTime,e),n.uniform1f(r.uZoom,this.zoom),n.uniform2f(r.uMouse,this.mouse[0],this.mouse[1]),n.uniform1f(r.uScroll,i.scroll),n.uniform1f(r.uEnergy,this.energy),n.uniform1f(r.uIntro,i.intro),n.uniform2f(r.uCenter,u[0]+u[2]*ie,u[1]+u[3]*.65),n.uniform1f(r.uRadius,u[3]*ae),n.uniform4f(r.uImg,u[0],u[1],u[2],u[3]),n.drawArrays(n.TRIANGLES,0,3),t>.028?this.slowFrames++:this.slowFrames=Math.max(0,this.slowFrames-1),this.slowFrames>40&&this.quality>.4&&(this.quality=Math.max(.4,this.quality-.15),this.slowFrames=0,this.resize())}};function ce(e){return e.innerHTML=`<span class="hero__mask">${[...e.textContent??``].map(e=>`<span class="hero__char"><span class="hero__glyph">${e}</span></span>`).join(``)}</span>`,Array.from(e.querySelectorAll(`.hero__char`))}function le(t){let i=document.querySelector(`[data-hero]`),a=i.querySelector(`[data-hero-gl]`),o=i.querySelector(`[data-hero-photo]`),s=o.querySelector(`.hero__pic`),c=o.querySelector(`img`),l=i.querySelector(`.hero__name`),u=i.querySelectorAll(`.hero__ghost`),f=i.querySelectorAll(`[data-hero-fade]`),p=ce(l),m=l.querySelectorAll(`.hero__glyph`);e.set(o,{x:0,xPercent:-50});let h=c?(c.complete?Promise.resolve():new Promise(e=>c.addEventListener(`load`,()=>e(),{once:!0}))).then(()=>c.decode()).catch(()=>void 0):Promise.resolve(),g=se.create(a);g?g.setPhoto(o):i.classList.add(`is-fallback`);let _=!0;if(new IntersectionObserver(([e])=>_=e.isIntersecting).observe(i),g&&(new ResizeObserver(()=>{g.resize(),r&&g.render(8,.016)}).observe(a),r?(g.state.intro=1,h.then(()=>g.render(8,.016))):(e.ticker.add((e,n)=>{_&&!document.hidden&&(g.state.velocity=t?.velocity??0,g.render(e,n/1e3))}),window.addEventListener(`audio:state`,e=>{g.state.energyTarget=+!!e.detail.playing}))),d&&!r){let t=Array.from(u).map(t=>e.quickTo(t,`x`,{duration:.9,ease:`power3`})),n=Array.from(u).map(t=>e.quickTo(t,`y`,{duration:.9,ease:`power3`})),r=e.quickTo(o,`x`,{duration:1.4,ease:`power3`});window.addEventListener(`pointermove`,e=>{let i=e.clientX/window.innerWidth*2-1,a=e.clientY/window.innerHeight*2-1;g&&(g.state.mouseTarget=[i,a]),t[0]?.(i*18),n[0]?.(a*10),t[1]?.(i*-12),n[1]?.(a*-8),r(i*-14)},{passive:!0})}if(!r){let t=(p.length-1)/2;e.timeline({scrollTrigger:{trigger:i,start:`top top`,end:`bottom top`,scrub:!0,onUpdate:e=>{g&&(g.state.scroll=e.progress)}}}).fromTo(o,{yPercent:0,scale:1},{yPercent:14,scale:1.08,ease:`none`},0).fromTo(p,{x:0,yPercent:0},{x:e=>(e-t)*window.innerWidth*.018,yPercent:e=>-Math.abs(e-t)*9,ease:`none`},0).fromTo(i,{"--ui-fade":1},{"--ui-fade":0,ease:`none`},0)}let v=e.timeline({paused:!0});return r?g&&(g.state.intro=1):(v.fromTo(s,{opacity:0,scale:1.14,filter:`blur(16px)`},{opacity:1,scale:1,filter:`blur(0px)`,duration:2.4,ease:`expo.out`,clearProps:`filter`},0).fromTo(m,{yPercent:118},{yPercent:0,duration:1.5,ease:`expo.out`,stagger:.055},.2).fromTo(u,{opacity:0},{opacity:1,duration:1.4,ease:`power2.out`},1).fromTo(f,{opacity:0,y:26},{opacity:1,y:0,duration:1.1,ease:`power3.out`,stagger:.08},.7).fromTo(`[data-header]`,{yPercent:-100,opacity:0},{yPercent:0,opacity:1,duration:1.1,ease:`power3.out`,clearProps:`transform,opacity`},.6),g&&v.fromTo(g.state,{intro:0},{intro:1,duration:3,ease:`power2.out`},0)),n.addEventListener(`refresh`,()=>g?.resize()),{intro:v,imageReady:h}}var G=`vanglera-seen`;function ue(){try{let e=sessionStorage.getItem(G)===`1`;return sessionStorage.setItem(G,`1`),e}catch{return!1}}function de(){let t=document.querySelector(`[data-loader]`),n=t.querySelector(`svg`),r=t.querySelector(`[data-loader-count]`),i=t.querySelector(`.loader__meta`),a=ue(),o=Array.from(n.querySelectorAll(`.m-ring`)).map(e=>e.querySelectorAll(`path, polygon, circle:not(.m-fill)`)),s=n.querySelectorAll(`.m-fill`);e.set(n.querySelectorAll(`path, polygon, circle:not(.m-fill)`),{strokeDasharray:1,strokeDashoffset:1}),e.set(s,{opacity:0});let c=a?.7:1.6,l=e.timeline();o.forEach((e,t)=>{l.to(e,{strokeDashoffset:0,duration:c,ease:`power2.inOut`},t*c*.12)}),l.to(s,{opacity:1,duration:.4,stagger:{each:.004,from:`start`}},c*.4);let u=e.to(n,{rotate:360,duration:60,ease:`none`,repeat:-1}),d={v:0},f=()=>{r.textContent=String(Math.round(d.v)).padStart(3,`0`)},p=e.to(d,{v:86,duration:a?.6:1.8,ease:`power2.out`,onUpdate:f});return{async finish(a,o){await Promise.all([a,l.then(),p.then()]),await new Promise(t=>{e.to(d,{v:100,duration:.35,ease:`power1.inOut`,onUpdate:f,onComplete:t})}),e.timeline({onComplete:()=>{u.kill(),t.remove()}}).to(i,{opacity:0,y:12,duration:.4,ease:`power2.in`},0).to(r,{opacity:0,duration:.3},0).to(n,{scale:3.2,opacity:0,duration:1.2,ease:`power3.in`},0).to(t,{clipPath:`inset(0% 0% 100% 0%)`,duration:1,ease:`expo.inOut`},.55).call(o,[],.75)}}}var K=120,q=null,J=!1,Y=0;function X(){let e=``;for(let t=0;t<K;t++){let n=t/K,r=.35+.3*Math.sin(n*23.1)*Math.sin(n*7.3+1.2)+.25*Math.abs(Math.sin(n*61.7+.4)),i=Math.max(.12,Math.min(1,r));e+=`<rect x="${t*5}" y="${(1-i)*20}" width="2.4" height="${i*40}" rx="1.2"/>`}return`<svg viewBox="0 0 600 40" preserveAspectRatio="none" aria-hidden="true">${e}</svg>`}function fe(){let t=document.querySelector(`[data-player]`);if(!t)return;let n=t.querySelector(`[data-embed]`),i=n.querySelector(`iframe`),a=t.querySelector(`[data-seek]`),o=t.querySelector(`[data-seek-fill]`),s=t.querySelector(`.track__wave`),c=t.querySelector(`[data-time-cur]`),l=t.querySelector(`[data-time-dur]`),u=document.querySelectorAll(`[data-audio-toggle]`),d=t.querySelector(`[data-disc-spin]`);s.innerHTML=X(),o.innerHTML=X();let p=d&&!r?e.to(d,{rotate:360,duration:24,ease:`none`,repeat:-1}):null,m=t=>{J=t,document.documentElement.classList.toggle(`is-playing`,t),u.forEach(e=>e.setAttribute(`aria-pressed`,String(t))),p&&e.to(p,{timeScale:t?4:1,duration:1.6,ease:`power2.inOut`}),window.dispatchEvent(new CustomEvent(`audio:state`,{detail:{playing:t}}))},h=(e,t)=>{let n=Math.min(100,Math.max(0,t*100));o.style.clipPath=`inset(0 ${100-n}% 0 0)`,a.setAttribute(`aria-valuenow`,String(Math.round(n))),a.setAttribute(`aria-valuetext`,f(e)),c.textContent=f(e)},g=()=>q||(q=_(i,{onState:m,onProgress:h,onDuration:e=>{Y=e,l.textContent=f(e)}}).then(e=>(n.classList.add(`is-ready`),e)),q.catch(()=>{n.classList.add(`is-error`),q=null}),q);new IntersectionObserver((e,t)=>{e.some(e=>e.isIntersecting)&&(t.disconnect(),g().catch(()=>void 0))},{rootMargin:`900px 0px`}).observe(t),u.forEach(e=>e.addEventListener(`click`,()=>{g().then(e=>J?e.pause():e.play()).catch(()=>{let e=t.querySelector(`.sound__links a`)?.href;e&&window.open(e,`_blank`,`noopener`)})}));let v=e=>{g().then(t=>{Y&&(t.seekTo(e*Y),h(e*Y,e),J||t.play())})},y=e=>{let t=a.getBoundingClientRect();return Math.min(1,Math.max(0,(e.clientX-t.left)/t.width))};a.addEventListener(`pointerdown`,e=>{a.setPointerCapture(e.pointerId),v(y(e))}),a.addEventListener(`keydown`,e=>{if(!Y)return;let t=Number(a.getAttribute(`aria-valuenow`))/100,n=e.shiftKey?.1:.02;if(e.key===`ArrowRight`)v(Math.min(1,t+n));else if(e.key===`ArrowLeft`)v(Math.max(0,t-n));else return;e.preventDefault()})}var Z=null,Q=(e,t=`top 86%`)=>({trigger:e,start:t,once:!0});function $(){Z?.revert(),!r&&(Z=e.context(()=>{document.querySelectorAll(`[data-reveal="lines"]`).forEach(n=>{t.create(n,{type:`lines`,mask:`lines`,aria:`none`,autoSplit:!0,onSplit:t=>e.from(t.lines,{yPercent:105,duration:1.15,ease:`expo.out`,stagger:.08,scrollTrigger:Q(n)})})}),document.querySelectorAll(`[data-scrub-words]`).forEach(n=>{t.create(n,{type:`words`,aria:`none`,autoSplit:!0,onSplit:t=>e.fromTo(t.words,{opacity:.18},{opacity:1,ease:`none`,stagger:.1,scrollTrigger:{trigger:n,start:`top 82%`,end:`bottom 42%`,scrub:!0}})})}),document.querySelectorAll(`[data-split-chars]`).forEach(n=>{t.create(n,{type:`lines,chars`,mask:`lines`,autoSplit:!0,onSplit:t=>e.from(t.chars,{yPercent:115,duration:1.2,ease:`expo.out`,stagger:.035,scrollTrigger:Q(n,`top 88%`)})})});let n=document.querySelector(`[data-quote]`),r=document.querySelector(`[data-quote-text]`);n&&r&&t.create(r,{type:`words`,aria:`none`,autoSplit:!0,onSplit:t=>e.timeline({scrollTrigger:{trigger:n,start:`top top`,end:`+=140%`,scrub:!0}}).fromTo(t.words,{opacity:.08,filter:`blur(6px)`},{opacity:1,filter:`blur(0px)`,ease:`none`,stagger:.12})})}))}function pe(){Z?.revert(),Z=null}function me(){if(r)return;document.querySelectorAll(`[data-reveal="clip"]`).forEach(t=>{let n=t.querySelector(`img`),r=e.timeline({scrollTrigger:Q(t,`top 85%`)});r.fromTo(t,{clipPath:`inset(100% 0% 0% 0%)`},{clipPath:`inset(0% 0% 0% 0%)`,duration:1.5,ease:`expo.inOut`}),n&&r.from(n,{scale:1.35,duration:1.8,ease:`expo.out`},.2)}),document.querySelectorAll(`[data-line]`).forEach(t=>{e.fromTo(t,{scaleX:0},{scaleX:1,duration:1.6,ease:`expo.inOut`,scrollTrigger:Q(t,`top 92%`)})}),document.querySelectorAll(`[data-parallax]`).forEach(t=>{let n=Number(t.dataset.parallax)||10;e.fromTo(t,{yPercent:-n},{yPercent:n,ease:`none`,scrollTrigger:{trigger:t.parentElement,start:`top bottom`,end:`bottom top`,scrub:!0}})}),document.querySelectorAll(`[data-scramble]`).forEach(t=>{let n=t.textContent??``;e.to(t,{duration:1.3,scrambleText:{text:n,chars:`✺◆▲●◇△ VNGLR01`,revealDelay:.25,speed:.5},scrollTrigger:Q(t,`top 90%`)})});let t=(t,r={})=>{n.batch(t,{start:`top 90%`,once:!0,onEnter:t=>e.from(t,{y:48,opacity:0,duration:1,ease:`expo.out`,stagger:.08,...r})})};t(`.dna__item`,{x:-40,y:0}),t(`.facts__row`),t(`.press__item`),t(`.contacts__item`),t(`.tags li`,{y:20});let i=document.querySelector(`.bio__orbit svg`);i&&e.fromTo(i,{rotate:-40},{rotate:80,ease:`none`,scrollTrigger:{trigger:`.bio__grid`,start:`top bottom`,end:`bottom top`,scrub:!0}});let a=document.querySelector(`.bio__pic`);a&&e.fromTo(a,{yPercent:-8},{yPercent:0,ease:`none`,scrollTrigger:{trigger:`.bio__grid`,start:`top bottom`,end:`bottom top`,scrub:!0}});let o=document.querySelector(`[data-quote]`);o&&e.timeline({scrollTrigger:{trigger:o,start:`top top`,end:`+=140%`,scrub:!0,pin:!0,anticipatePin:1}}).fromTo(`[data-quote-bg]`,{scale:1.3},{scale:1,ease:`none`},0).fromTo(`.quote__mandala svg`,{rotate:0,scale:.7},{rotate:90,scale:1.15,ease:`none`},0);let s=document.querySelector(`[data-footer-word]`);s&&e.from(s,{yPercent:55,ease:`none`,scrollTrigger:{trigger:`.footer`,start:`top bottom`,end:`bottom bottom`,scrub:!0}})}e.registerPlugin(n,t,F);var he=e=>new Promise(t=>setTimeout(t,e));function ge(){let e=`VANGLERA Био Звук`;return Promise.all([document.fonts.load(`800 1em "Unbounded Variable"`,e),document.fonts.load(`300 1em "Unbounded Variable"`,e),document.fonts.load(`400 1em "Manrope Variable"`,e),document.fonts.load(`500 1em "JetBrains Mono Variable"`,e),document.fonts.load(`italic 300 1em "Cormorant Garamond"`,e)]).catch(()=>void 0)}function _e(){document.querySelectorAll(`[data-lang]`).forEach(t=>t.addEventListener(`click`,async()=>{let o=t.dataset.lang;if(o===p())return;a(o);let s=[`main`,`.footer`];r||await e.to(s,{opacity:0,duration:.25,ease:`power1.in`}).then(),pe(),i(o),$(),n.sort(),n.refresh(),r||e.to(s,{opacity:1,duration:.5,ease:`power1.out`,clearProps:`opacity`})}))}async function ve(){`scrollRestoration`in history&&(history.scrollRestoration=`manual`),window.scrollTo(0,0);let e=document.documentElement;e.classList.add(`is-loading`),r&&e.classList.add(`reduced`),ne(),i(g());let t=c();s(!0);let a=le(t),u=r?null:de(),d=Promise.race([Promise.all([ge(),a.imageReady]),he(5e3)]);o(),m(),l(t),fe(),_e(),await d,v(t),me(),$(),h(),n.sort(),n.refresh();let f=()=>{e.classList.remove(`is-loading`),s(!1),location.hash.length>1&&document.querySelector(location.hash)&&y(location.hash,!0)};u?await u.finish(Promise.resolve(),()=>{a.intro.play(0),f()}):(document.querySelector(`[data-loader]`)?.remove(),a.intro.progress(1),f())}ve();
